@@ -1,0 +1,15 @@
+{
+  "name": "apis",
+  "version": "1.0.0",
+  "description": "aprendizado de apis, protocos e verbos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vitor Barroso Rodrigues",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "swagger-ui-express": "^5.0.1"
+  }
+}

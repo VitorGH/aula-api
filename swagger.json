@@ -1,0 +1,41 @@
+{
+    "openapi" : "3.0.0",
+    "info" : {
+        "title": "Usuários",
+        "description": "Documentação sobre APIs de usários",
+        "version": "1.0.0"
+    },
+    "basePath": "/",
+    "paths": {
+        "/api/usuarios": {
+            "get": {
+                "summary": "Obter todos usuários",
+                "responses": {
+                    "200" : {
+                        "description": "Lista de usuários",
+                        "content": {
+                            "application/json": {
+                                "scheme": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object",
+                                        "properties": {
+                                            "id": {
+                                                "type": "number"
+                                            },
+
+                                            "nome": {
+                                                "type": "string"
+                                            }
+                                        },
+                                        "required": ["none"]
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
